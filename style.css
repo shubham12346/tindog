@@ -1,0 +1,75 @@
+/* backgroung color */
+.back{
+    background-color: #E60965;
+    color: #fff;
+    
+}
+/* sizing of nav fonts */
+nav ul li {
+    font-size: 1%;
+}
+.navbar-brand{
+    font-size: 2%;
+  
+        
+}
+/* upc is container width of both nav and upperconatiner*/
+.upC{
+    width: 80%;
+}
+.iphone{
+    transform: rotate(25deg);
+}
+#upperContainer{
+    position: relative;
+
+  
+
+}
+#info{
+    background-color: #fff;
+    position: relative;
+    top: -200px;
+  
+
+}
+.crasoulImg{
+    width: 10%;
+    border-radius: 50%;
+  
+
+    
+}
+
+.reviewimg img{
+    float: left;
+    margin-left: 46%;
+  
+}
+.reviewimg  p{
+    padding-top: 2%;
+    float: left;
+}
+.reviewimg h3{
+    padding: 5%;
+}
+.links ul{
+    list-style: none;
+}
+@media(max-width:1128px)
+{
+    #upperContainer {
+            position: static;
+    
+    
+    
+        }
+        .iphone{
+            transform: rotate(0deg);
+            width: 80%;
+        }
+
+    #info{
+        position: static;
+    }
+}
